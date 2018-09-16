@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: App 1`] = `
+<div
+  className="App__AppContainer-sc-1gqgb50-0 fRSoNO"
+>
+  <header
+    className="App__AppHeader-sc-1gqgb50-2 kiObkE"
+  >
+    <img
+      className="App__Logo-sc-1gqgb50-4 jnWBhu"
+      src="logo.svg"
+    />
+    <h1
+      className="App__Title-sc-1gqgb50-3 fzEvPq"
+    >
+      Welcome to React in Electron packed with Parcel!
+    </h1>
+    Electron App Version: 
+    2.0.9
+  </header>
+  <p
+    className="App__AppIntro-sc-1gqgb50-1 dOIlSn"
+  >
+    <a
+      className="MuiButtonBase-root-027 MuiButton-root-01 MuiButton-text-03 MuiButton-flat-06"
+      href="/"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      style={
+        Object {
+          "background": "linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)",
+          "border": 0,
+          "borderradius": 3,
+          "boxshadow": "0 3px 5px 2px rgba(255, 105, 135, .3)",
+          "color": "white",
+          "height": 48,
+          "padding": "0 30px",
+        }
+      }
+      tabIndex="0"
+    >
+      <span
+        className="MuiButton-label-02"
+      >
+        Back
+      </span>
+      <span
+        className="MuiTouchRipple-root-030"
+      />
+    </a>
+  </p>
+</div>
+`;

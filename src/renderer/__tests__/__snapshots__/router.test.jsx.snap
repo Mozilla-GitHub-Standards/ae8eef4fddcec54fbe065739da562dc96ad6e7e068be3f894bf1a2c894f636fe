@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Route: / 1`] = `
+<section
+  className="welcome__Wrapper-sc-1aduiiu-1 iwiozQ"
+>
+  <h1
+    className="welcome__Title-sc-1aduiiu-0 hGWJmu"
+  >
+    <a
+      href="#about"
+      id="start"
+      onClick={[Function]}
+    >
+      About
+    </a>
+  </h1>
+</section>
+`;
+
+exports[`Route: /about 1`] = `
+<section
+  className="welcome__Wrapper-sc-1aduiiu-1 iwiozQ"
+>
+  <h1
+    className="welcome__Title-sc-1aduiiu-0 hGWJmu"
+  >
+    <a
+      href="#about"
+      id="start"
+      onClick={[Function]}
+    >
+      About
+    </a>
+  </h1>
+</section>
+`;
+
+exports[`Route: /dummy 1`] = `
+<section
+  className="welcome__Wrapper-sc-1aduiiu-1 iwiozQ"
+>
+  <h1
+    className="welcome__Title-sc-1aduiiu-0 hGWJmu"
+  >
+    <a
+      href="#about"
+      id="start"
+      onClick={[Function]}
+    >
+      About
+    </a>
+  </h1>
+</section>
+`;

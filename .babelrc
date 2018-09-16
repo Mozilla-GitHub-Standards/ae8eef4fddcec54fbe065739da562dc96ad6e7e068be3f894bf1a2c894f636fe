@@ -1,0 +1,16 @@
+{
+  "presets": [
+    "react",
+    "stage-2",
+    "flow",
+    [
+      "env",
+      {
+        "targets": {
+          "electron": "2.0.8"
+        }
+      }
+    ]
+  ],
+  "plugins": ["babel-plugin-styled-components"]
+}
