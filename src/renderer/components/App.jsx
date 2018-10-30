@@ -7,14 +7,14 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Button from '@material-ui/core/Button'
 import { remote } from 'electron'
-import styled, { keyframes, injectGlobal } from 'styled-components'
+import styled, { keyframes, createGlobalStyle } from 'styled-components'
 
 import logo from '../images/logo.svg'
 
-injectGlobal`
+const GlobalStyle = createGlobalStyle`
   body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     font-family: sans-serif;
     background-color: #303341;
   }
@@ -62,18 +62,21 @@ const GradientButton = {
 export default class App extends React.Component<{}, {}> {
   render() {
     return (
-      <AppContainer>
-        <AppHeader>
-          <Logo src={logo} />
-          <Title>Welcome to React in Electron packed with Parcel!</Title>
-          Electron App Version: {remote.app.getVersion()}
-        </AppHeader>
-        <AppIntro>
-          <Button component={Link} to="/" style={GradientButton}>
-            Back
-          </Button>
-        </AppIntro>
-      </AppContainer>
+      <React.Fragment>
+        <GlobalStyle />
+        <AppContainer>
+          <AppHeader>
+            <Logo src={logo} />
+            <Title>Welcome to React in Electron packed with Parcel!</Title>
+            Electron App Version: {remote.app.getVersion()}
+          </AppHeader>
+          <AppIntro>
+            <Button component={Link} to="/" style={GradientButton}>
+              Back
+            </Button>
+          </AppIntro>
+        </AppContainer>
+      </React.Fragment>
     )
   }
 }

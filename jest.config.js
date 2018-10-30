@@ -4,7 +4,7 @@ const { defaults } = require('jest-config')
 
 module.exports = {
   moduleFileExtensions: [...defaults.moduleFileExtensions, 'js', 'jsx'],
-  verbose: false,
+  verbose: true,
   collectCoverageFrom: ['src/**'],
   coverageDirectory: 'dist/coverage',
   transform: {

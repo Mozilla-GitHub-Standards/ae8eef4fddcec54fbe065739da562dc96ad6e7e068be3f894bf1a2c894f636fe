@@ -167,19 +167,6 @@ Optionally
 
 ## 🙈 Issues
 
-- #### Babel 7
-
-  As soon as Parcel adds support for Babel 7, the Babel dependencies can be upgraded to use scopes. See also the [Babel 7 migration guide](https://babeljs.io/docs/en/v7-migration) for other changes required and the Parcel WIP [issue](https://github.com/parcel-bundler/parcel/issues/868)
-
-  ```
-  "@babel/cli": "^7.0.0",
-  "@babel/core": "^7.0.0",
-  "@babel/preset-env": "^7.0.0",
-  "@babel/preset-flow": "^7.0.0",
-  "@babel/preset-react": "^7.0.0",
-  "@babel/preset-stage-2": "^7.0.0",
-  ```
-
 - #### Flow LSP
 
   Running flow through the `Language Server Protocol` is still experimental.

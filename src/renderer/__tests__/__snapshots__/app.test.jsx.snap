@@ -17,13 +17,13 @@ exports[`Component: App 1`] = `
       Welcome to React in Electron packed with Parcel!
     </h1>
     Electron App Version: 
-    2.0.9
+    2.0.12
   </header>
   <p
     className="App__AppIntro-sc-1gqgb50-1 dOIlSn"
   >
     <a
-      className="MuiButtonBase-root-027 MuiButton-root-01 MuiButton-text-03 MuiButton-flat-06"
+      className="MuiButtonBase-root-27 MuiButton-root-1 MuiButton-text-3 MuiButton-flat-6"
       href="/"
       onBlur={[Function]}
       onClick={[Function]}
@@ -51,12 +51,12 @@ exports[`Component: App 1`] = `
       tabIndex="0"
     >
       <span
-        className="MuiButton-label-02"
+        className="MuiButton-label-2"
       >
         Back
       </span>
       <span
-        className="MuiTouchRipple-root-030"
+        className="MuiTouchRipple-root-30"
       />
     </a>
   </p>

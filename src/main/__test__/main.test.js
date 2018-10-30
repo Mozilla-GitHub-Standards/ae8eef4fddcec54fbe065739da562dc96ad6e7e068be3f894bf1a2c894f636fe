@@ -18,16 +18,6 @@ beforeEach(async () => {
   await app.client.waitUntilWindowLoaded()
 })
 
-test('application title', async () => {
-  expect(await app.client.getTitle()).toBe('Electron-React-Parcel-Boilerplate')
-})
-
-test('go to Start', async () => {
-  expect(
-    await app.client
-      .element('a#start')
-      .click()
-      .element('h1')
-      .getText()
-  ).toBe('Electron + React + Parcel')
+test('Application Title', async () => {
+  expect(await app.client.getTitle()).toBe('Electron Genesis')
 })

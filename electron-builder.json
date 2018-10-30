@@ -2,7 +2,7 @@
   "productName": "Electron Genesis",
   "appId": "org.mozilla.electrongenesis",
   "artifactName": "${name}-${version}-${os}-${arch}.${ext}",
-  "files": ["dist/**", "!dist/renderer/development/**", "!dist/**/*.map", "assets/icons/icon.*"],
+  "files": ["dist/**", "!dist/renderer/development/**", "!dist/**/*.map", "assets/icons/**"],
   "directories": {
     "output": "dist",
     "buildResources": "assets/icons"

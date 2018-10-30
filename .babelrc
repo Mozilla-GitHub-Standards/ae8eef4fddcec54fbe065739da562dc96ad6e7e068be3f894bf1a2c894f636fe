@@ -1,13 +1,12 @@
 {
   "presets": [
-    "react",
-    "stage-2",
-    "flow",
+    "@babel/preset-react",
+    "@babel/preset-flow",
     [
-      "env",
+      "@babel/preset-env",
       {
         "targets": {
-          "electron": "2.0.8"
+          "electron": "3.0"
         }
       }
     ]
