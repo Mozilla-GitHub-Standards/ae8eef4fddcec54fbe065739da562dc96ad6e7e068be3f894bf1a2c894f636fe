@@ -1,29 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Page: About 1`] = `
-<div
-  className="App__AppContainer-sc-1gqgb50-0 fRSoNO"
->
-  <header
-    className="App__AppHeader-sc-1gqgb50-2 kiObkE"
-  >
-    <img
-      className="App__Logo-sc-1gqgb50-4 jnWBhu"
-      src="logo.svg"
-    />
-    <h1
-      className="App__Title-sc-1gqgb50-3 fzEvPq"
-    >
-      Welcome to React in Electron packed with Parcel!
-    </h1>
-    Electron App Version: 
-    2.0.12
-  </header>
-  <p
-    className="App__AppIntro-sc-1gqgb50-1 dOIlSn"
+<div>
+  <p>
+    Sample project for an Electron based application.
+  </p>
+  <div
+    className="MuiBottomNavigation-root-2 AboutPage-root-1"
   >
     <a
-      className="MuiButtonBase-root-27 MuiButton-root-1 MuiButton-text-3 MuiButton-flat-6"
+      className="MuiButtonBase-root-8 MuiBottomNavigationAction-root-3 MuiBottomNavigationAction-selected-4"
       href="/"
       onBlur={[Function]}
       onClick={[Function]}
@@ -37,28 +23,83 @@ exports[`Page: About 1`] = `
       onTouchMove={[Function]}
       onTouchStart={[Function]}
       role="button"
-      style={
-        Object {
-          "background": "linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)",
-          "border": 0,
-          "borderradius": 3,
-          "boxshadow": "0 3px 5px 2px rgba(255, 105, 135, .3)",
-          "color": "white",
-          "height": 48,
-          "padding": "0 30px",
-        }
-      }
       tabIndex="0"
     >
       <span
-        className="MuiButton-label-2"
+        className="MuiBottomNavigationAction-wrapper-6"
       >
-        Back
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-11"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+          />
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+        </svg>
+        <span
+          className="MuiBottomNavigationAction-label-7 MuiBottomNavigationAction-selected-4"
+        >
+          Home
+        </span>
       </span>
       <span
-        className="MuiTouchRipple-root-30"
+        className="MuiTouchRipple-root-20"
       />
     </a>
-  </p>
+    <a
+      className="MuiButtonBase-root-8 MuiBottomNavigationAction-root-3"
+      href="/preferences"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex="0"
+    >
+      <span
+        className="MuiBottomNavigationAction-wrapper-6"
+      >
+        <svg
+          aria-hidden="true"
+          className="MuiSvgIcon-root-11"
+          focusable="false"
+          role="presentation"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M0 0h20v20H0V0z"
+            fill="none"
+            transform="scale(1.2, 1.2)"
+          />
+          <path
+            d="M15.95 10.78c.03-.25.05-.51.05-.78s-.02-.53-.06-.78l1.69-1.32c.15-.12.19-.34.1-.51l-1.6-2.77c-.1-.18-.31-.24-.49-.18l-1.99.8c-.42-.32-.86-.58-1.35-.78L12 2.34c-.03-.2-.2-.34-.4-.34H8.4c-.2 0-.36.14-.39.34l-.3 2.12c-.49.2-.94.47-1.35.78l-1.99-.8c-.18-.07-.39 0-.49.18l-1.6 2.77c-.1.18-.06.39.1.51l1.69 1.32c-.04.25-.07.52-.07.78s.02.53.06.78L2.37 12.1c-.15.12-.19.34-.1.51l1.6 2.77c.1.18.31.24.49.18l1.99-.8c.42.32.86.58 1.35.78l.3 2.12c.04.2.2.34.4.34h3.2c.2 0 .37-.14.39-.34l.3-2.12c.49-.2.94-.47 1.35-.78l1.99.8c.18.07.39 0 .49-.18l1.6-2.77c.1-.18.06-.39-.1-.51l-1.67-1.32zM10 13c-1.65 0-3-1.35-3-3s1.35-3 3-3 3 1.35 3 3-1.35 3-3 3z"
+            transform="scale(1.2, 1.2)"
+          />
+        </svg>
+        <span
+          className="MuiBottomNavigationAction-label-7"
+        >
+          Settings
+        </span>
+      </span>
+      <span
+        className="MuiTouchRipple-root-20"
+      />
+    </a>
+  </div>
 </div>
 `;

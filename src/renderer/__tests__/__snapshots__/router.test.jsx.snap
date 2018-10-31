@@ -1,55 +1,100 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Route: / 1`] = `
-<section
-  className="welcome__Wrapper-sc-1aduiiu-1 iwiozQ"
+<div
+  className="HomePage__AppContainer-sc-18iwayr-0 eaWoGh"
 >
-  <h1
-    className="welcome__Title-sc-1aduiiu-0 hGWJmu"
+  <header
+    className="HomePage__AppHeader-sc-18iwayr-1 jqZojt"
+  >
+    <img
+      className="HomePage__Logo-sc-18iwayr-2 eQPjRi"
+      src="logo.svg"
+    />
+    <h1
+      className="HomePage__Title-sc-18iwayr-3 dgwQCT"
+    >
+      Welcome to React in Electron packed with Parcel!
+    </h1>
+    Electron App Version: 
+    2.0.12
+  </header>
+  <div
+    className="HomePage__AppIntro-sc-18iwayr-4 dcbkOF"
   >
     <a
+      className="Button__ButtonLink-sc-16blip-0 fRbiGp"
       href="#about"
-      id="start"
       onClick={[Function]}
     >
-      About
+      ABOUT
     </a>
-  </h1>
-</section>
+  </div>
+</div>
 `;
 
 exports[`Route: /about 1`] = `
-<section
-  className="welcome__Wrapper-sc-1aduiiu-1 iwiozQ"
+<div
+  className="HomePage__AppContainer-sc-18iwayr-0 eaWoGh"
 >
-  <h1
-    className="welcome__Title-sc-1aduiiu-0 hGWJmu"
+  <header
+    className="HomePage__AppHeader-sc-18iwayr-1 jqZojt"
+  >
+    <img
+      className="HomePage__Logo-sc-18iwayr-2 eQPjRi"
+      src="logo.svg"
+    />
+    <h1
+      className="HomePage__Title-sc-18iwayr-3 dgwQCT"
+    >
+      Welcome to React in Electron packed with Parcel!
+    </h1>
+    Electron App Version: 
+    2.0.12
+  </header>
+  <div
+    className="HomePage__AppIntro-sc-18iwayr-4 dcbkOF"
   >
     <a
+      className="Button__ButtonLink-sc-16blip-0 fRbiGp"
       href="#about"
-      id="start"
       onClick={[Function]}
     >
-      About
+      ABOUT
     </a>
-  </h1>
-</section>
+  </div>
+</div>
 `;
 
-exports[`Route: /dummy 1`] = `
-<section
-  className="welcome__Wrapper-sc-1aduiiu-1 iwiozQ"
+exports[`Route: /preferences 1`] = `
+<div
+  className="HomePage__AppContainer-sc-18iwayr-0 eaWoGh"
 >
-  <h1
-    className="welcome__Title-sc-1aduiiu-0 hGWJmu"
+  <header
+    className="HomePage__AppHeader-sc-18iwayr-1 jqZojt"
+  >
+    <img
+      className="HomePage__Logo-sc-18iwayr-2 eQPjRi"
+      src="logo.svg"
+    />
+    <h1
+      className="HomePage__Title-sc-18iwayr-3 dgwQCT"
+    >
+      Welcome to React in Electron packed with Parcel!
+    </h1>
+    Electron App Version: 
+    2.0.12
+  </header>
+  <div
+    className="HomePage__AppIntro-sc-18iwayr-4 dcbkOF"
   >
     <a
+      className="Button__ButtonLink-sc-16blip-0 fRbiGp"
       href="#about"
-      id="start"
       onClick={[Function]}
     >
-      About
+      ABOUT
     </a>
-  </h1>
-</section>
+  </div>
+</div>
 `;

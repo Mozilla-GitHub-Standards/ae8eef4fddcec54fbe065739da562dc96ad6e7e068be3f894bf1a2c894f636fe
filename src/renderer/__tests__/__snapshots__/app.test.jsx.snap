@@ -2,63 +2,33 @@
 
 exports[`Component: App 1`] = `
 <div
-  className="App__AppContainer-sc-1gqgb50-0 fRSoNO"
+  className="HomePage__AppContainer-sc-18iwayr-0 eaWoGh"
 >
   <header
-    className="App__AppHeader-sc-1gqgb50-2 kiObkE"
+    className="HomePage__AppHeader-sc-18iwayr-1 jqZojt"
   >
     <img
-      className="App__Logo-sc-1gqgb50-4 jnWBhu"
+      className="HomePage__Logo-sc-18iwayr-2 eQPjRi"
       src="logo.svg"
     />
     <h1
-      className="App__Title-sc-1gqgb50-3 fzEvPq"
+      className="HomePage__Title-sc-18iwayr-3 dgwQCT"
     >
       Welcome to React in Electron packed with Parcel!
     </h1>
     Electron App Version: 
     2.0.12
   </header>
-  <p
-    className="App__AppIntro-sc-1gqgb50-1 dOIlSn"
+  <div
+    className="HomePage__AppIntro-sc-18iwayr-4 dcbkOF"
   >
     <a
-      className="MuiButtonBase-root-27 MuiButton-root-1 MuiButton-text-3 MuiButton-flat-6"
-      href="/"
-      onBlur={[Function]}
+      className="Button__ButtonLink-sc-16blip-0 fRbiGp"
+      href="#about"
       onClick={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
-      role="button"
-      style={
-        Object {
-          "background": "linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)",
-          "border": 0,
-          "borderradius": 3,
-          "boxshadow": "0 3px 5px 2px rgba(255, 105, 135, .3)",
-          "color": "white",
-          "height": 48,
-          "padding": "0 30px",
-        }
-      }
-      tabIndex="0"
     >
-      <span
-        className="MuiButton-label-2"
-      >
-        Back
-      </span>
-      <span
-        className="MuiTouchRipple-root-30"
-      />
+      ABOUT
     </a>
-  </p>
+  </div>
 </div>
 `;

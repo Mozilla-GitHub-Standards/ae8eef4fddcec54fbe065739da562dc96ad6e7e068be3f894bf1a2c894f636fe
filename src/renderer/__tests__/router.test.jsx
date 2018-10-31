@@ -4,7 +4,7 @@ import React from 'react'
 import Renderer from 'react-test-renderer'
 import { MemoryRouter } from 'react-router-dom'
 
-import Router from '../router'
+import Router from '../layouts/ContentRoutes'
 
 test('Route: /', () => {
   const component = Renderer.create(
@@ -26,9 +26,9 @@ test('Route: /about', () => {
   expect(tree).toMatchSnapshot()
 })
 
-test('Route: /dummy', () => {
+test('Route: /preferences', () => {
   const component = Renderer.create(
-    <MemoryRouter initialEntries={['/dummy']}>
+    <MemoryRouter initialEntries={['/preferences']}>
       <Router />
     </MemoryRouter>
   )

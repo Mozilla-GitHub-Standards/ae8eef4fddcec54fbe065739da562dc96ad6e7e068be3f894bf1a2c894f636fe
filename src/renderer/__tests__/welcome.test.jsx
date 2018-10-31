@@ -4,9 +4,9 @@ import React from 'react'
 import Renderer from 'react-test-renderer'
 import { MemoryRouter } from 'react-router-dom'
 
-import Welcome from '../pages/welcome'
+import Welcome from '../containers/HomePage'
 
-test('Page: Welcome', () => {
+test('Page: HomePage', () => {
   const component = Renderer.create(
     <MemoryRouter>
       <Welcome />

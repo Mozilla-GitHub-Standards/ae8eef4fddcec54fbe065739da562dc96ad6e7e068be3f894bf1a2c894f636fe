@@ -63,69 +63,69 @@ yarn dist
 
 ## Packages Overview
 
-| Component     | Package                               | Dependency | Description                             |
-| ------------- | ------------------------------------- | ---------- | --------------------------------------- |
-| App           | electron                              |            |                                         |
-|               | cross-env                             | 🔧         | Sets env vars cross platform            |
-|               | electron-log                          |            |                                         |
-|               | electron-devtools-installer           |            |                                         |
-|               | electron-builder                      | 🔧         |                                         |
-|               | electron-updater                      |            |                                         |
-|               | express                               | 🔧         | Workaround for Parcel                   |
-|               | app-root-path                         |            |                                         |
-|               | dotenv                                |            | Env Configuration                       |
-|               | dotenv-expand                         |            | Env Configuration                       |
-| UI            | react                                 |            | UI Library                              |
-|               | react-dom                             |            | UI Library                              |
-|               | react-router-dom                      |            | UI Navigation                           |
-| Style         | styled-components                     |            | Styled Components (CSSJS)               |
-|               | styled-theming                        |            | Styled Components Theming               |
-|               | @material-ui/core                     |            | Material UI core                        |
-|               | typeface-roboto                       |            | default font for Material UI            |
-|               | @material-ui/icons                    |            | default icons for Material UI           |
-| Transpiling   | babel-cli                             | 🔧         |                                         |
-|               | babel-core                            | 🔧         |                                         |
-|               | babel-eslint                          | 🔧         |                                         |
-|               | babel-jest                            | 🔧         |                                         |
-|               | babel-plugin-styled-components        | 🔧         |                                         |
-|               | babel-preset-env                      | 🔧         |                                         |
-|               | babel-preset-flow                     | 🔧         |                                         |
-|               | babel-preset-react                    | 🔧         |                                         |
-|               | babel-preset-stage-2                  | 🔧         |                                         |
-| Type Safety   | flow-bin                              | 🔧         | TypeScript alternative                  |
-|               | flow-upgrade                          | 🔧         |                                         |
-|               | flow-typed                            | 🔧         |                                         |
-|               | flow-coverage-report                  | 🔧         |                                         |
-| Testing       | jest                                  | 🔧         | Testing framework                       |
-|               | jest-config                           | 🔧         | Jest configuration support              |
-|               | @jest-runner/electron                 | 🔧         | To run tests inside Electron            |
-|               | react-test-renderer                   | 🔧         |                                         |
-|               | regenerator-runtime                   | 🔧         |                                         |
-|               | spectron                              | 🔧         |                                         |
-| Linting       | eslint                                | 🔧         | For JS/JSX                              |
-|               | eslint-plugin-flowtype                | 🔧         |                                         |
-|               | eslint-plugin-import                  | 🔧         | Linting of ES6+ import/export syntax    |
-|               | eslint-plugin-jsx-a11y                | 🔧         |                                         |
-|               | eslint-plugin-react                   | 🔧         | React specific linting rules for ESLint |
-|               | stylelint                             | 🔧         | CSSJS                                   |
-|               | stylelint-config-prettier             | 🔧         |                                         |
-|               | stylelint-config-recommended          | 🔧         |                                         |
-|               | stylelint-config-styled-components    | 🔧         |                                         |
-|               | stylelint-processor-styled-components | 🔧         |                                         |
-| Formatting    | prettier                              | 🔧         |                                         |
-|               | prettier-eslint                       | 🔧         |                                         |
-|               | prettier-eslint-cli                   | 🔧         |                                         |
-|               | eslint-config-prettier                | 🔧         |                                         |
-|               | eslint-plugin-prettier                | 🔧         |                                         |
-|               | lint-staged                           | 🔧         | In combination with Husky               |
-|               | husky                                 | 🔧         | Run Git hooks                           |
-| Documentation | esdoc                                 | 🔧         | Documentation generator                 |
-|               | esdoc-standard-plugin                 | 🔧         |                                         |
-|               | esdoc-jsx-plugin                      | 🔧         |                                         |
-|               | esdoc-node                            | 🔧         |                                         |
-| Utilities     | npm-check-updates                     | 🔧         | Checks package dependency updates       |
-|               | npm-run-all                           | 🔧         | Runs scripts in parallel or sync        |
-|               | parcel-bundler                        | 🔧         | Zero conf Webpack replacement           |
+| Component     | Package                                 | Dependency | Description                             |
+| ------------- | --------------------------------------- | ---------- | --------------------------------------- |
+| App           | electron                                |            |                                         |
+|               | cross-env                               | 🔧         | Sets env vars cross platform            |
+|               | electron-log                            |            |                                         |
+|               | electron-devtools-installer             |            |                                         |
+|               | electron-builder                        | 🔧         |                                         |
+|               | electron-updater                        |            |                                         |
+|               | express                                 | 🔧         | Workaround for Parcel                   |
+|               | app-root-path                           |            |                                         |
+|               | dotenv                                  |            | Env Configuration                       |
+|               | dotenv-expand                           |            | Env Configuration                       |
+| UI            | react                                   |            | UI Library                              |
+|               | react-dom                               |            | UI Library                              |
+|               | react-router-dom                        |            | UI Navigation                           |
+| Style         | styled-components                       |            | Styled Components (CSSJS)               |
+|               | styled-theming                          |            | Styled Components Theming               |
+|               | @material-ui/core                       |            | Material UI core                        |
+|               | typeface-roboto                         |            | default font for Material UI            |
+|               | @material-ui/icons                      |            | default icons for Material UI           |
+| Transpiling   | @babel/cli                              | 🔧         |                                         |
+|               | @babel/core                             | 🔧         |                                         |
+|               | @babel/preset-env                       | 🔧         |                                         |
+|               | @babel/preset-flow                      | 🔧         |                                         |
+|               | @babel/preset-react                     | 🔧         |                                         |
+|               | @babel/plugin-proposal-class-properties | 🔧         |                                         |
+|               | babel-eslint                            | 🔧         |                                         |
+|               | babel-jest                              | 🔧         |                                         |
+|               | babel-plugin-styled-components          | 🔧         |                                         |
+| Type Safety   | flow-bin                                | 🔧         | TypeScript alternative                  |
+|               | flow-upgrade                            | 🔧         |                                         |
+|               | flow-typed                              | 🔧         |                                         |
+|               | flow-coverage-report                    | 🔧         |                                         |
+| Testing       | jest                                    | 🔧         | Testing framework                       |
+|               | jest-config                             | 🔧         | Jest configuration support              |
+|               | @jest-runner/electron                   | 🔧         | To run tests inside Electron            |
+|               | react-test-renderer                     | 🔧         |                                         |
+|               | regenerator-runtime                     | 🔧         |                                         |
+|               | spectron                                | 🔧         |                                         |
+| Linting       | eslint                                  | 🔧         | For JS/JSX                              |
+|               | eslint-plugin-flowtype                  | 🔧         |                                         |
+|               | eslint-plugin-import                    | 🔧         | Linting of ES6+ import/export syntax    |
+|               | eslint-plugin-jsx-a11y                  | 🔧         |                                         |
+|               | eslint-plugin-react                     | 🔧         | React specific linting rules for ESLint |
+|               | stylelint                               | 🔧         | CSSJS                                   |
+|               | stylelint-config-prettier               | 🔧         |                                         |
+|               | stylelint-config-recommended            | 🔧         |                                         |
+|               | stylelint-config-styled-components      | 🔧         |                                         |
+|               | stylelint-processor-styled-components   | 🔧         |                                         |
+| Formatting    | prettier                                | 🔧         |                                         |
+|               | prettier-eslint                         | 🔧         |                                         |
+|               | prettier-eslint-cli                     | 🔧         |                                         |
+|               | eslint-config-prettier                  | 🔧         |                                         |
+|               | eslint-plugin-prettier                  | 🔧         |                                         |
+|               | lint-staged                             | 🔧         | In combination with Husky               |
+|               | husky                                   | 🔧         | Run Git hooks                           |
+| Documentation | esdoc                                   | 🔧         | Documentation generator                 |
+|               | esdoc-standard-plugin                   | 🔧         |                                         |
+|               | esdoc-jsx-plugin                        | 🔧         |                                         |
+|               | esdoc-node                              | 🔧         |                                         |
+| Utilities     | npm-check-updates                       | 🔧         | Checks package dependency updates       |
+|               | npm-run-all                             | 🔧         | Runs scripts in parallel or sync        |
+|               | parcel-bundler                          | 🔧         | Zero conf Webpack replacement           |
 
 Dev-Dependency: 🔧
 
